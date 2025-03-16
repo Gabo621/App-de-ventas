@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Columbia Burger</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="/css/columbia_burger.css">
+    <link rel="stylesheet" href="/css/mobile.css">
+</head>
+<body>
+  <header>
+      <a href="#" class="logo">
+          <img src="/recursos/logo.png" alt="Logo">
+          <h2>Columbia Burger</h2>
+      </a>
+      <button id="abrir" class="abrir-menu"><i class="bi bi-list"></i></button>
+      <nav id="navi" class="navi">
+        <ul class="nav-menu" id="nav-menu">
+          <button id="cerrar" class="cerrar-menu"><i class="bi bi-x-lg"></i></button>
+          <a href="" class="nav-link">Incio</a>
+          <a href="" class="nav-link">Menu</a>
+          <a href="" class="nav-link">Ordena en linea</a>
+          <a href="" class="nav-link">Iniciar sesión</a>
+          <a href="" class="nav-link">Registrarse</a>
+        </ul>
+      </nav>
+  </header>
+
+  <script src="/js/columbia.js"></script>
+
+  <!--Carrusel de imágenes-->
+  <div id="carouselExampleDark" class="carousel carousel-dark slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="10000">
+          <img src="/recursos/x.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>First slide label</h5>
+            <p>Some representative placeholder content for the first slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="/recursos/x.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Second slide lebel</h5>
+            <p>Some representative placeholder content for the second slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="..." class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Third slide label</h5>
+            <p>Some representative placeholder content for the third slide.</p>
+          </div>
+         </div>
+       </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    
+  <!--Sección novedades-->
+
+  <h2 class="nov">NOVEDADES</h2>
+    
+  <div class="novedades">
+
+    <div class="nov1">
+      <a href="#" class="novedad1">
+        <img src="/recursos/Costillas.jpeg" class="img_nov" alt="imagen novedad">
+        <h2>Nombre Producto</h2>
+        <p class="desc_nov">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda iste consequuntur alias quos aut nostrum error ullam, voluptates laborum perferendis nemo eveniet magni suscipit minus deleniti nihil! Placeat quam, itaque nesciunt quibusdam dolorem eveniet.</p>
+      </a>
+    </div>
+
+    <div class="nov2">
+      <a href="#" class="novedad2">
+        <img src="/recursos/Costillas.jpeg" class="img_nov" alt="imagen novedad">
+        <h2>Nombre Producto</h2>
+        <p class="desc_nov">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda iste consequuntur alias quos aut nostrum error ullam, voluptates laborum perferendis nemo eveniet magni suscipit minus deleniti nihil! Placeat quam, itaque nesciunt quibusdam dolorem eveniet.</p>
+      </a>
+    </div>
+
+    <div class="nov3">
+      <a href="#" class="novedad3">
+        <img src="/recursos/Costillas.jpeg" class="img_nov" alt="imagen novedad">
+        <h2>Nombre Producto</h2>
+        <p class="desc_nov">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda iste consequuntur alias quos aut nostrum error ullam, voluptates laborum perferendis nemo eveniet magni suscipit minus deleniti nihil! Placeat quam, itaque nesciunt quibusdam dolorem eveniet.</p>
+      </a>
+    </div>
+
+  </div>
+
+  <!--mapa e info-->
+
+  <div class="container-info">
+    <div class="mapa">
+      <iframe class="mapa1" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3977.3065503877365!2d-74.1178008!3d4.5387264!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3fa38aacc47411%3A0xd5f9e5ad52f825fb!2sColumbia%20Burger!5e0!3m2!1ses-419!2sco!4v1742003975800!5m2!1ses-419!2sco" 
+      width="600" 
+      height="450" 
+      style="border:0;" 
+      allowfullscreen="" 
+      loading="lazy" 
+      referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
+    <div class="info">
+      <ul><b>VISITANOS</b></ul>
+      <ul>Carrera 4 Bis #56-30 sur <b>Danubio Azul Usme</b></ul>
+      <ul><b>HORARIOS</b></ul>
+      <ul><b>Lunes a Viernes:</b> 4:00 pm a 10:30 pm</ul>
+      <ul><b>Sabados y Domingos:</b> 4:00 pm a 11:00 pm</ul>
+      <ul><b>Pide tu domicilio o contactanos</b></ul>
+      <ul><a href="https://api.whatsapp.com/send/?phone=573228262989&text=Hola%2C+quiero+hacer+un+pedido&type=phone_number&app_absent=0">+57 322 826 2989</a></ul>
+    </div>
+  </div>
+
+  <!--footer-->
+
+  <footer class="footer">
+    <div class="footer-container">
+      <!--Logo y descripción -->
+      <div class="footer-section">
+          <img src="/recursos/logo.png" alt="Columbia Burger Logo" class="footer-logo">
+          <p class="footer-description">
+              Columbia Burger
+          </p>
+      </div>
+
+      <!--Enlaces rápidos -->
+      <div class="footer-section">
+          <h3 class="footer-title">Enlaces rápidos</h3>
+          <ul class="footer-links">
+              <li><a href="#">Inicio</a></li>
+              <li><a href="#">Menú</a></li>
+              <li><a href="#">Contacto</a></li>
+              <li><a href="#">Términos y condiciones</a></li>
+          </ul>
+      </div>
+
+      <!--Información de contacto -->
+      <div class="footer-section">
+          <h3 class="footer-title">Contacto</h3>
+          <ul class="footer-contact">
+              <li><i class="fas fa-map-marker-alt"></i> Dirección: Carrera 4bis #56-30sur, Bogotá, Colombia</li>
+              <li><i class="fas fa-phone"></i> Teléfono: +57 322 8262989</li>
+              <li><i class="fas fa-envelope"></i> Email: info@columbiaburger.com</li>
+          </ul>
+      </div>
+
+      <!--Redes sociales -->
+      <div class="footer-section">
+          <h3 class="footer-title">Síguenos</h3>
+          <div class="footer-social">
+              <a href="https://www.facebook.com/ColumbiaBurger2021?locale=es_LA"><i class="fab fa-facebook"></i></a>
+              <a href="https://www.instagram.com/columbia_burger/"><i class="fab fa-instagram"></i></a>
+              <a href="https://api.whatsapp.com/send/?phone=573228262989&text=Hola%2C+quiero+hacer+un+pedido&type=phone_number&app_absent=0"><i class="fab fa-whatsapp"></i></a>
+          </div>
+      </div>
+  </div>
+
+  <!--Derechos de autor -->
+  <div class="footer-bottom">
+      <p>&copy; 2023 Columbia Burger. Todos los derechos reservados.</p>
+  </div>
+  </footer>
+
+</html>
