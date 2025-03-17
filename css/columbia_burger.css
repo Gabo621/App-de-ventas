@@ -13,6 +13,9 @@ header{
     justify-content: space-between;
     padding: 10px;
     background-color: #eeba65;
+    font-family: "Emblema One", system-ui;
+    font-weight: 100;
+    font-style: normal;
 }
 .nav-menu{
     display: flex;
@@ -33,7 +36,7 @@ header{
     padding-left: 100px;
 }
 .logo img{
-    height: 100px;
+    height: 120px;
     margin-right: 10px;
 }
 a{
@@ -47,13 +50,18 @@ a{
     border-radius: 20px !important;
 }
 nav a:hover{
-    color: #ff4f09 !important;
+    background-color: #ffa735 !important;
     transition: all 0.3s ease !important;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2) !important;
 }
 .carousel-item{
     height: 640px;
     border-radius: 20px;
+}
+.carousel-caption{
+    font-family: "Emblema One", system-ui;
+    font-weight: 100;
+    font-style: normal;
 }
 .d-block {
     height: 640px;
@@ -68,7 +76,14 @@ nav a:hover{
     padding-left: 100px;
     padding-top: 100px;
     padding-bottom: 20px;
-
+    font-family: "Emblema One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+.nov1 h2, .nov2 h2, .nov3 h2{
+    font-family: "Emblema One", system-ui;
+    font-weight: 400;
+    font-style: normal;
 }
 .img_nov{
     max-width: 100%;
@@ -113,7 +128,9 @@ nav a:hover{
     margin-top: 200px;
 }
 .info{
-    padding-top: 70px;
+    padding-top: 80px;
+    font-family: "Emblema One", system-ui;
+    font-size: 20px;
 }
 .mapa, .info{
     align-items: center;
@@ -127,14 +144,15 @@ nav a:hover{
     overflow: hidden;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5)
 }
-.footer {
+.footer{
     background-color: #333;
     color: #fff;
     padding: 40px 0;
     font-family: sans-serif;
+    padding-bottom: 0;
 }
 
-.footer-container {
+.footer-container{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -143,54 +161,56 @@ nav a:hover{
     padding: 0 20px;
 }
 
-.footer-section {
+.footer-section{
     flex: 1;
     min-width: 200px;
     margin-bottom: 20px;
 }
 
-.footer-logo {
+.footer-logo{
     width: 100px;
     margin-bottom: 10px;
 }
 
-.footer-description {
+.footer-description{
     font-size: 14px;
     line-height: 1.5;
     color: #ccc;
 }
 
-.footer-title {
+.footer-title{
     font-size: 18px;
     margin-bottom: 15px;
     color: #eeba65;
 }
 
-.footer-links, .footer-contact {
+.footer-links, .footer-contact{
     list-style: none;
     padding: 0;
 }
 
-.footer-links li, .footer-contact li {
+.footer-links li, .footer-contact li{
     margin-bottom: 10px;
 }
 
-.footer-links a, .footer-contact a {
+.footer-links a, .footer-contact a{
     color: #ccc;
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
-.footer-links a:hover, .footer-contact a:hover {
+.footer-links a:hover {
     color: #eeba65;
 }
-
-.footer-social {
+.footer-contact a:hover{
+    color: #eeba65;
+}
+.footer-social{
     display: flex;
     gap: 10px;
 }
 
-.footer-social a {
+.footer-social a{
     color: #fff;
     font-size: 20px;
     transition: color 0.3s ease;
@@ -204,6 +224,6 @@ nav a:hover{
     text-align: center;
     padding: 20px 0;
     background-color: #222;
-    margin-top: 20px;
+    margin-top: 10px;
     font-size: 14px;
 }

@@ -18,9 +18,7 @@
         opacity: 0;
         visibility: hidden;
         justify-content: space-between;
-        position: sticky;
-        z-index: 1000;
-        position: absolute;
+        position: fixed;
         top: 0;
         right: 0;
         bottom: 0;
@@ -100,7 +98,8 @@
         border-radius: 20px;
         overflow: hidden;
     }
-    .info{
+    .info ul{
+        padding: 0px;
         text-align: center;
     }
 }
